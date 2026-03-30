@@ -1,0 +1,16 @@
+# 编译产物
+build/
+bin/
+my_server
+
+# Raft 持久化文件
+*.bin
+
+# IDE 配置文件
+.vscode/
+.idea/
+cmake-build-debug/
+
+# 临时文件
+*.swp
+*.o
